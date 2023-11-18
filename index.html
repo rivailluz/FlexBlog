@@ -13,7 +13,7 @@
       href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
   </head>
   <body>
     <div class="superinfo-bg">
@@ -28,15 +28,15 @@
         <div class="menu-logo">
           <a href="#">FlexBlog</a>
         </div>
+        <nav class="menu-nav">
+          <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#produtos">Produtos</a></li>
+            <li><a href="#preco">Preço</a></li>
+            <li><a href="#qualidade">Qualidade</a></li>
+          </ul>
+        </nav>
       </div>
-      <nav>
-        <ul>
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#produtos">Produtos</a></li>
-          <li><a href="#preco">Preço</a></li>
-          <li><a href="#qualidade">Qualidade</a></li>
-        </ul>
-      </nav>
     </header>
     <h1 class="introducao">Novos valores e <br />Propriedades do CSS3</h1>
     <section class="sobre" id="sobre">
@@ -66,19 +66,17 @@
     <section class="produtos" id="produtos">
       <h1>Produtos</h1>
       <div class="produtos-container">
-        <div class="produtos-item">
-          <div class="produtos-item purple">
-            <h2>Purple</h2>
-            <img src="img/produtos1.jpg" alt="Produtos 1" />
-          </div>
-          <div class="produtos-item pink">
-            <h2>Pink</h2>
-            <img src="img/produtos2.jpg" alt="Produtos 2" />
-          </div>
-          <div class="produtos-item blue">
-            <h2>Blue</h2>
-            <img src="img/produtos3.jpg" alt="Produtos 3" />
-          </div>
+        <div class="produtos-item purple">
+          <h2>Purple</h2>
+          <img src="img/produtos1.jpg" alt="Produtos 1" />
+        </div>
+        <div class="produtos-item pink">
+          <h2>Pink</h2>
+          <img src="img/produtos2.jpg" alt="Produtos 2" />
+        </div>
+        <div class="produtos-item blue">
+          <h2>Blue</h2>
+          <img src="img/produtos3.jpg" alt="Produtos 3" />
         </div>
       </div>
     </section>
@@ -182,7 +180,7 @@
         <h1>Newsletter</h1>
         <p>assine e fique por dentro das novidades</p>
       </div>
-      <form action="">
+      <form class="newsletter-form">
         <input type="text" placeholder="Seu e-mail" />
         <button type="submit">Assinar</button>
       </form>
